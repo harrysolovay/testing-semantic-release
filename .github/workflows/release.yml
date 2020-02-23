@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: "12.x"
       - run: yarn
+      - run: yarn test
       - run: yarn build
       - run: yarn semantic-release
         env:
