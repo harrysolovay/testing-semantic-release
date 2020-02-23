@@ -1,17 +1,12 @@
 {
-  "name": "node-package-template",
+  "name": "testing-semantic-release",
   "version": "1.0.0",
   "description": "A living, comprehensive, best-practices template for Node packages",
-  "repository": "github:harrysolovay/node-package-template",
+  "repository": "github:harrysolovay/testing-semantic-release",
   "bugs": {
-    "url": "https://github.com/harrysolovay/node-package-template/issues"
+    "url": "https://github.com/harrysolovay/testing-semantic-release/issues"
   },
-  "homepage": "https://github.com/harrysolovay/node-package-template#readme",
-  "keywords": [
-    "node",
-    "package",
-    "template"
-  ],
+  "homepage": "https://github.com/harrysolovay/testing-semantic-release#readme",
   "author": {
     "name": "Harry Solovay",
     "email": "harrysolovay@gmail.com",
@@ -51,6 +46,7 @@
     "husky": "^4.2.1",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
+    "semantic-release": "^17.0.4",
     "ts-jest": "^25.0.0",
     "ts-node": "^8.6.2"
   },
@@ -82,6 +78,19 @@
       "pre-push": "yarn lint && yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "./pkg"
+        }
+      ]
+    ]
   },
   "@pika/pack": {
     "pipeline": [
