@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: yarn
+      - run: yarn install --frozen-lockfile
       - run: yarn test
       - run: yarn build
       - run: yarn semantic-release
