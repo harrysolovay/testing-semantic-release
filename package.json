@@ -1,0 +1,105 @@
+{
+  "name": "node-package-template",
+  "version": "1.0.0",
+  "description": "A living, comprehensive, best-practices template for Node packages",
+  "repository": "github:harrysolovay/node-package-template",
+  "bugs": {
+    "url": "https://github.com/harrysolovay/node-package-template/issues"
+  },
+  "homepage": "https://github.com/harrysolovay/node-package-template#readme",
+  "keywords": [
+    "node",
+    "package",
+    "template"
+  ],
+  "author": {
+    "name": "Harry Solovay",
+    "email": "harrysolovay@gmail.com",
+    "url": "https://www.harrysolovay.com/"
+  },
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.9.2",
+    "@pika/plugin-ts-standard-pkg": "^0.9.2",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sort-class-members": "^1.6.0",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "eslint-plugin-tsdoc": "^0.2.1",
+    "eslint-plugin-typescript-sort-keys": "^0.5.0",
+    "eslint-plugin-unicorn": "^15.0.1",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2"
+  },
+  "jest": {
+    "cache": false,
+    "globals": {
+      "ts-jest": {
+        "diagnostics": true,
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.spec.ts"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules"
+    ],
+    "verbose": false
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg",
+        {
+          "tsconfig": "tsconfig.build.json"
+        }
+      ],
+      [
+        "@pika/plugin-build-node"
+      ]
+    ]
+  },
+  "scripts": {
+    "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
+    "test": "rm -rf pkg & jest --coverage",
+    "build": "pika build",
+    "example": "ts-node example"
+  }
+}
