@@ -24,7 +24,7 @@ jobs:
             console.log(
               "DEBUG DEBUG DEBUG",
               require("fs").readFileSync(
-                require("path").join(__dirname, "pkg/package.json"),
+                "./pkg/package.json",
                 "utf8",
               ),
             );
