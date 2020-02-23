@@ -103,7 +103,7 @@
       [
         "@semantic-release/npm",
         {
-          "pkgRoot": "./pkg"
+          "pkgRoot": "./pkg/"
         }
       ]
     ]
