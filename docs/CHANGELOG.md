@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.3...v1.4.4) (2020-02-24)
+
+
+### Bug Fixes
+
+* still trying to debug prereleases ([e10e3d6](https://github.com/harrysolovay/testing-semantic-release/commit/e10e3d6c910a6684d02c33514d97ad6b95a436ec))
+
 ## [1.4.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.2...v1.4.3) (2020-02-24)
 
 
