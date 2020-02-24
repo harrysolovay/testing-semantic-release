@@ -1,3 +1,45 @@
+## [1.4.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.2...v1.4.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* still trying to configure channels ([f50e992](https://github.com/harrysolovay/testing-semantic-release/commit/f50e992a0a524070df36cd9dce702603f5a482bc))
+
+## [1.4.2](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.1...v1.4.2) (2020-02-24)
+
+
+### Bug Fixes
+
+* attempting to fix release channels ([1f15d1c](https://github.com/harrysolovay/testing-semantic-release/commit/1f15d1c88bf4761a329cb4f4659ca702c4b236fa))
+
+## [1.4.1](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.0...v1.4.1) (2020-02-24)
+
+
+### Bug Fixes
+
+* remove unnecessary tag ([8f5f770](https://github.com/harrysolovay/testing-semantic-release/commit/8f5f770b6fe39aefad9921ef696d1b523dc3681a))
+
+# [1.4.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.3.0...v1.4.0) (2020-02-24)
+
+
+### Features
+
+* configured publish config with next tag in next branch ([bfe8137](https://github.com/harrysolovay/testing-semantic-release/commit/bfe81377029bdb15314785f1e990f8437df897cf))
+
+# [1.3.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.2.0...v1.3.0) (2020-02-24)
+
+
+### Features
+
+* some new thing ([658cb38](https://github.com/harrysolovay/testing-semantic-release/commit/658cb383b748bec87c92b59e15f4da57ef7b0807))
+
+# [1.2.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.3...v1.2.0) (2020-02-24)
+
+
+### Features
+
+* version placeholding ([3f9365c](https://github.com/harrysolovay/testing-semantic-release/commit/3f9365cea1d066252e8c70765de4b2a22d6f797d))
+
 ## [1.1.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.2...v1.1.3) (2020-02-24)
 
 
