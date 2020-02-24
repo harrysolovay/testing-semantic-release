@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.2...v1.4.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* still trying to configure channels ([f50e992](https://github.com/harrysolovay/testing-semantic-release/commit/f50e992a0a524070df36cd9dce702603f5a482bc))
+
 ## [1.4.2](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.1...v1.4.2) (2020-02-24)
 
 
