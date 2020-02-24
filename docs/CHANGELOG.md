@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.3.0...v1.4.0) (2020-02-24)
+
+
+### Features
+
+* configured publish config with next tag in next branch ([bfe8137](https://github.com/harrysolovay/testing-semantic-release/commit/bfe81377029bdb15314785f1e990f8437df897cf))
+
 # [1.3.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.2.0...v1.3.0) (2020-02-24)
 
 
