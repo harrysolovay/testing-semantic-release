@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.1...v1.4.2) (2020-02-24)
+
+
+### Bug Fixes
+
+* attempting to fix release channels ([1f15d1c](https://github.com/harrysolovay/testing-semantic-release/commit/1f15d1c88bf4761a329cb4f4659ca702c4b236fa))
+
 ## [1.4.1](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.0...v1.4.1) (2020-02-24)
 
 
