@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.2.0...v1.3.0) (2020-02-24)
+
+
+### Features
+
+* some new thing ([658cb38](https://github.com/harrysolovay/testing-semantic-release/commit/658cb383b748bec87c92b59e15f4da57ef7b0807))
+
 # [1.2.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.3...v1.2.0) (2020-02-24)
 
 
