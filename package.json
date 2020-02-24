@@ -90,6 +90,11 @@
       {
         "name": "next",
         "channel": "next"
+      },
+      {
+        "name": "beta",
+        "channel": "beta",
+        "prerelease": "beta"
       }
     ],
     "plugins": [
