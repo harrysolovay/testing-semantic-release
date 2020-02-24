@@ -84,10 +84,26 @@
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "docs/CHANGELOG.md"
+          ]
+        }
+      ],
+      "@semantic-release/github",
       [
         "@semantic-release/npm",
         {
-          "pkgRoot": "./pkg/"
+          "pkgRoot": "./pkg"
         }
       ]
     ]
@@ -107,7 +123,7 @@
   },
   "scripts": {
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
-    "test": "rm -rf pkg & jest --coverage",
+    "test": "jest --coverage",
     "build": "pika build",
     "example": "ts-node example"
   }
