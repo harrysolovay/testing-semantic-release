@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.3...v1.2.0) (2020-02-24)
+
+
+### Features
+
+* version placeholding ([3f9365c](https://github.com/harrysolovay/testing-semantic-release/commit/3f9365cea1d066252e8c70765de4b2a22d6f797d))
+
 ## [1.1.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.2...v1.1.3) (2020-02-24)
 
 
