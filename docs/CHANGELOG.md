@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/harrysolovay/testing-semantic-release/compare/v1.1.2...v1.1.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* hopefully this finally fixes it ([97a57ef](https://github.com/harrysolovay/testing-semantic-release/commit/97a57efcced108dfe5d90235118010fe850ad8e5))
+
 # [1.1.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.0.0...v1.1.0) (2020-02-23)
 
 
