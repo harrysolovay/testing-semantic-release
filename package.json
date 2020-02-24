@@ -136,6 +136,7 @@
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "jest --coverage",
     "build": "pika build",
-    "example": "ts-node example"
+    "example": "ts-node example",
+    "something": "echo 'yo'"
   }
 }
