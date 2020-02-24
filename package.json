@@ -49,6 +49,7 @@
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.4",
+    "semantic-release-plugin-update-version-in-files": "^1.0.0",
     "ts-jest": "^25.0.0",
     "ts-node": "^8.6.2"
   },
@@ -104,6 +105,16 @@
         "@semantic-release/npm",
         {
           "pkgRoot": "./pkg"
+        }
+      ],
+      [
+        "semantic-release-plugin-update-version-in-files",
+        {
+          "files": [
+            "pkg/dist-node/version.js",
+            "pkg/dist-src/version.js"
+          ],
+          "placeholder": "SEMANTIC_VERSION_PLACEHOLDER"
         }
       ]
     ]
