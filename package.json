@@ -84,13 +84,7 @@
   },
   "release": {
     "branches": [
-      {
-        "name": "master"
-      },
-      {
-        "name": "next",
-        "channel": "next"
-      },
+      "master",
       {
         "name": "beta",
         "channel": "beta",
