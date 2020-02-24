@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.0...v1.4.1) (2020-02-24)
+
+
+### Bug Fixes
+
+* remove unnecessary tag ([8f5f770](https://github.com/harrysolovay/testing-semantic-release/commit/8f5f770b6fe39aefad9921ef696d1b523dc3681a))
+
 # [1.4.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.3.0...v1.4.0) (2020-02-24)
 
 
