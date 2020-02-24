@@ -1,3 +1,10 @@
+# [1.5.0-beta.1](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.4...v1.5.0-beta.1) (2020-02-24)
+
+
+### Features
+
+* testing beta release channel ([99cb963](https://github.com/harrysolovay/testing-semantic-release/commit/99cb9631ddf83ab5afefa14a0b506a828ae5a3fc))
+
 ## [1.4.4](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.3...v1.4.4) (2020-02-24)
 
 
