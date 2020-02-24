@@ -15,8 +15,7 @@
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "access": "public",
-    "tag": "next"
+    "access": "public"
   },
   "dependencies": {
     "typescript": "^3.7.5"
