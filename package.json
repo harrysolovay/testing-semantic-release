@@ -109,6 +109,7 @@
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "rm -rf pkg & jest --coverage",
     "build": "pika build",
+    "script": "echo yo",
     "example": "ts-node example"
   }
 }
