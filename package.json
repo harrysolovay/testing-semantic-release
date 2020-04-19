@@ -87,7 +87,8 @@
       "master",
       {
         "name": "next",
-        "channel": "next"
+        "channel": "next",
+        "prerelease": "next"
       },
       {
         "name": "beta",
@@ -148,6 +149,7 @@
     "lint": "eslint '{example,src}/**/*' -c .eslintrc --fix",
     "test": "jest --coverage",
     "build": "pika build",
-    "example": "ts-node example"
+    "example": "ts-node example",
+    "some-change": "echo 'yo'"
   }
 }

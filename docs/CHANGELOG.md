@@ -1,3 +1,22 @@
+# [1.5.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.5...v1.5.0) (2020-04-19)
+
+
+### Bug Fixes
+
+* change expected in test ([3d20443](https://github.com/harrysolovay/testing-semantic-release/commit/3d20443dfa25f0820e1207c147b5a50b69e7a6ef))
+
+
+### Features
+
+* world becomes worlds ([afdb694](https://github.com/harrysolovay/testing-semantic-release/commit/afdb6940a6683f5b71bf559961090881519efa4d))
+
+## [1.4.5](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.4...v1.4.5) (2020-02-24)
+
+
+### Bug Fixes
+
+* debugging ([173e463](https://github.com/harrysolovay/testing-semantic-release/commit/173e4638e623039bcc4f0aeef74ee14cf3f76f0d))
+
 ## [1.4.4](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.3...v1.4.4) (2020-02-24)
 
 
