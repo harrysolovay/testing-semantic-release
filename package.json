@@ -87,7 +87,8 @@
       "master",
       {
         "name": "next",
-        "channel": "next"
+        "channel": "next",
+        "prerelease": "next"
       },
       {
         "name": "beta",
