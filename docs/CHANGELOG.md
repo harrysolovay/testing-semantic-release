@@ -1,3 +1,10 @@
+# [1.6.0-next.1](https://github.com/harrysolovay/testing-semantic-release/compare/v1.5.0...v1.6.0-next.1) (2020-04-19)
+
+
+### Features
+
+* return back to singular world ([9f9624a](https://github.com/harrysolovay/testing-semantic-release/commit/9f9624aa100ff894c39b188b748c26d50e1e00dc))
+
 # [1.5.0](https://github.com/harrysolovay/testing-semantic-release/compare/v1.4.5...v1.5.0) (2020-04-19)
 
 
